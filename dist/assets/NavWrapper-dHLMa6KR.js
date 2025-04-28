@@ -1,2 +1,0 @@
-const __vite__fileDeps=["assets/Navbar-DEoBeuel.js","assets/index-C5s2OaR8.js","assets/index-DvdnpXeE.css","assets/icon-Caz-k3G0.js","assets/index-C9ad0pVB.js"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
-import{R as e,_ as t,j as s,s as a}from"./index-C5s2OaR8.js";const r=e.lazy(()=>t(()=>import("./Navbar-DEoBeuel.js"),__vite__mapDeps([0,1,2,3,4]))),l=()=>s.jsx("div",{className:`${a.paddingX} ${a.flexCenter} fixed  w-full bg-slate-800 z-50`,children:s.jsx("div",{className:`${a.boxWidth} `,children:s.jsx(r,{})})});export{l as default};
