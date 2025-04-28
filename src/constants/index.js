@@ -3,7 +3,6 @@ import {
     ToolIcon,
     SecureShield,
     GithubIcon,
-    FacebookIcon,
     LinkedInIcon,
     Youtube,
 } from "../assets";
@@ -58,6 +57,10 @@ export const footerLinks = [
             {
                 name: "Github Pizzusoft",
                 link: "https://github.com/pizzusoft/pdify/",
+            },
+            {
+                name: "Video Tutorial",
+                link: "https://youtu.be/UnWEhw6iVDo",
             },
         ],
     },

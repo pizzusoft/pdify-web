@@ -93,6 +93,11 @@ const Hero = () => {
                     <h1 className='xtext-gradient-logo font-poppins font-[700] ss:text-[48px] text-[32px] text-gray-600 dark:text-white  w-full'>
                         PDIFY
                     </h1>
+                    <sup className=' text-gray-600 dark:text-white'>
+                        <span className='text-gradient xs:text-[16px] sm:text-[18px] font-semibold'>
+                            v1.5.1
+                        </span>
+                    </sup>
                 </div>
                 <p
                     className={`${styles.paragraph} max-w-[470px] mt-5 text-current`}
