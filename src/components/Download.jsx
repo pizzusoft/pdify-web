@@ -10,22 +10,24 @@ const Download = () => (
             />
             {/* gradient start */}
             {/* <div className='absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient' />
-      <div className='absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient' /> */}
+            <div className='absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient' /> */}
             {/* gradient end */}
-            <div className='absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full blue__gradient xwhite__gradient' />
+            <div className='absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full blue__gradient' />
             <div className='absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient' />
         </div>
 
         <div className={`${layout.sectionInfo} `}>
-            <h2 className={styles.heading2}>
-                Easily create pdf <br className='sm:block hidden' /> fast &
-                secure.
+            <h2 className={`${styles.heading2} xtext-gradient`}>
+                Create pdf <br className='sm:block hidden' />
+                <span className='text-gradient uppercase font-bold'>
+                    fast & secure
+                </span>
             </h2>
-            <p className={`${styles.paragraph} xmax-w-[470px] mt-5`}>
+            <p className={`${styles.paragraph} text-left w-full mt-2`}>
                 Add the extension to your browser and you ready to use.
             </p>
 
-            <div className='flex flex-col sm:flex-row flex-wrap sm:mt-10 mt-6 gap-6'>
+            <div className='w-full flex flex-col sm:flex-row flex-wrap sm:mt-10 mt-4 gap-4'>
                 <a
                     href='https://chromewebstore.google.com/detail/pdify/jefldaehieliinjhjfjbkgongiljnpji'
                     target='_blank'
